@@ -6,6 +6,7 @@ for i in range(101):
 
 
 #proposition 2
-# for i in range(101):
-    # for i not in [26, 37,88]:
+
+#for i in range(101):
+    #for i not in [26, 37,88]:
         #print(i)

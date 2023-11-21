@@ -4,7 +4,7 @@ for i in range(1, len(chaine) + 1, 2):
     print(chaine[:i])
 
 
-#posiilité 2
+#possibilité 2
 #chaine = "abcdefghijklmnopqrstuvwxyz" * 10
 
 #i = 1
