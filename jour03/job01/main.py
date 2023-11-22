@@ -1,3 +1,3 @@
-def bonjour ():
+def bonjour():
     print ("Hello World")
 bonjour()
