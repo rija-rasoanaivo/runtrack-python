@@ -8,8 +8,9 @@ def produits(type, saison):
     elif type == "legume" and saison == "ete":
         print("Artichaut, aubergine, navet")
     else:
-        print("Combinaison type/saison non reconnue")
+        print("Combinaison non reconnue")
 produits("fruits", "hiver")
 produits("fruits", "ete")
 produits("legume", "hiver")
 produits("legume", "ete")
+produits("legume", "printemps")
