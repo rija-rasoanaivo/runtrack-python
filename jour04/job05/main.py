@@ -1,21 +1,19 @@
-def liste():
-    L = list(range(1, 6))
-    return L
-print (liste())
+L = list(range(1, 6))
 
-def liste():
-    L = list(range(1, 6))
-    return L[1]
-print (liste())
+def liste(list):
+    return list
+print (liste(L))
 
-def liste():
-    L = list(range(1, 6))
+def liste(list):
+    return list[1]
+print (liste(L))
+
+def liste(list):
     L[3]= L[2] + L[4]
-    return L
-print (liste())
+    return list
+print (liste(L))
 
-def liste():
-    L = list(range(1, 6))
+def liste(list):
     L[3]= L[2] + L[4]
-    return L[-1]
-print (liste())
+    return list[-1]
+print (liste(L))
